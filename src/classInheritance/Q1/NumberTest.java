@@ -53,20 +53,72 @@ public class NumberTest {
         assertEquals((float) 35.3, floatGtter.invoke(floatObj1));
         assertEquals((float) 35.3, floatGtter.invoke(floatObj2));
     }
+    private Number createInt(int value) throws Exception {
+        Class<?> clazz =
+                Class.forName("classInheritance.Q1.Int");
 
-    @Test
-    public void testNumberEqualTo() {
-        assertTrue(new Float(5.0f).equalTo(new Int(5)));
-        assertFalse(new Int(5).equalTo(new Float(5.1f)));
-        assertTrue(new Float(5.000).equalTo(new Float(5.0f)));
-        assertTrue(new Int(5).equalTo(new Int(5)));
-        assertTrue(new Int(5).equalTo(new Float(5.0f)));
+        return (Number)
+                clazz.getConstructor(int.class)
+                        .newInstance(value);
+    }
+
+    private Number createFloat(float value) throws Exception {
+        Class<?> clazz =
+                Class.forName("classInheritance.Q1.Float");
+
+        return (Number)
+                clazz.getConstructor(float.class)
+                        .newInstance(value);
     }
 
     @Test
-    public void testNumberComparedTo(){
-        assertEquals(0, new Int(5).comparedTo(new Float(5.0f)));
-        assertTrue(new Int(4).comparedTo(new Float(5.0f)) < 0);
-        assertTrue(new Float(6.0f).comparedTo(new Int(5)) > 0);
+    public void testNumberEqualTo() throws Exception {
+
+        assertTrue(
+                createFloat(5.0f)
+                        .equalTo(createInt(5))
+        );
+
+        assertFalse(
+                createInt(5)
+                        .equalTo(createFloat(5.1f))
+        );
+
+        assertTrue(
+                createFloat(5.0f)
+                        .equalTo(createFloat(5.0f))
+        );
+
+        assertTrue(
+                createInt(5)
+                        .equalTo(createInt(5))
+        );
+
+        assertTrue(
+                createInt(5)
+                        .equalTo(createFloat(5.0f))
+        );
+    }
+
+    @Test
+    public void testNumberComparedTo() throws Exception {
+
+        assertEquals(
+                0,
+                createInt(5)
+                        .comparedTo(createFloat(5.0f))
+        );
+
+        assertTrue(
+                createInt(4)
+                        .comparedTo(createFloat(5.0f))
+                        < 0
+        );
+
+        assertTrue(
+                createFloat(6.0f)
+                        .comparedTo(createInt(5))
+                        > 0
+        );
     }
 }
