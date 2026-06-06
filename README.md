@@ -1,4 +1,4 @@
-# COMP1110 Practice Exam Repository
+# COMP7710 Practice Exam Repository
 
 ## Getting Started
 
