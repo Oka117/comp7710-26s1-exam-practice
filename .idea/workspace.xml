@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be3a6e0a-0094-4465-8b68-6df95df7b304" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classInheritance/Q1/NumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classInheritance/Q1/NumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classInheritance/Q1/OperationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classInheritance/Q1/OperationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashing/Q1/BoardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashing/Q1/BoardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashing/Q2/CustomerQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashing/Q2/CustomerQueue.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3EhgtT7vYp4YYQQEeDegOeYuCze" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BoardGameTest.executor": "Run",
+    "JUnit.Unnamed.executor": "Run",
+    "JUnit.classInheritance.Q1.executor": "Run",
+    "JUnit.classInheritance.Q2.executor": "Run",
+    "JUnit.hashing.Q1 in practice-exam.executor": "Run",
+    "JUnit.hashing.Q1.executor": "Run",
+    "JUnit.hashing.Q2.executor": "Run",
+    "JUnit.warmup.Q1.executor": "Run",
+    "JUnit.warmup.Q2.executor": "Run",
+    "JUnit.warmup.Q3.executor": "Run",
+    "JUnit.warmup.Q4.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.hashing.Q1">
+    <configuration name="classInheritance.Q1" type="JUnit" factoryName="JUnit">
+      <module name="practice-exam" />
+      <option name="PACKAGE_NAME" value="classInheritance.Q1" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classInheritance.Q2" type="JUnit" factoryName="JUnit">
+      <module name="practice-exam" />
+      <option name="PACKAGE_NAME" value="classInheritance.Q2" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hashing.Q1" type="JUnit" factoryName="JUnit">
+      <module name="practice-exam" />
+      <option name="PACKAGE_NAME" value="hashing.Q1" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hashing.Q2" type="JUnit" factoryName="JUnit">
+      <module name="practice-exam" />
+      <option name="PACKAGE_NAME" value="hashing.Q2" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="warmup.Q1" type="JUnit" factoryName="JUnit">
+      <module name="practice-exam" />
+      <option name="PACKAGE_NAME" value="warmup.Q1" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="warmup.Q2" type="JUnit" factoryName="JUnit">
+      <module name="practice-exam" />
+      <option name="PACKAGE_NAME" value="warmup.Q2" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="warmup.Q3" type="JUnit" factoryName="JUnit">
+      <module name="practice-exam" />
+      <option name="PACKAGE_NAME" value="warmup.Q3" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="warmup.Q4" type="JUnit" factoryName="JUnit">
+      <module name="practice-exam" />
+      <option name="PACKAGE_NAME" value="warmup.Q4" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.hashing.Q1" />
+      <item itemvalue="JUnit.hashing.Q2" />
+      <item itemvalue="JUnit.classInheritance.Q1" />
+      <item itemvalue="JUnit.classInheritance.Q2" />
+      <item itemvalue="JUnit.warmup.Q1" />
+      <item itemvalue="JUnit.warmup.Q2" />
+      <item itemvalue="JUnit.warmup.Q3" />
+      <item itemvalue="JUnit.warmup.Q4" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be3a6e0a-0094-4465-8b68-6df95df7b304" name="Changes" comment="" />
+      <created>1780636434501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780636434501</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classInheritance/Q1/NumberTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
