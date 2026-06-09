@@ -20,7 +20,17 @@ public class HighProduct {
      * @return the largest array element that has `factor` as a factor
      */
     public static int findProduct(int[] array, int factor) {
-        return -2; // FIXME complete this method
+        boolean hasFactor = false;
+        int max = Integer.MIN_VALUE;
+        for(int i : array){
+            if (i % factor == 0 && max < i) {
+                hasFactor = true;
+                max = i;
+            }
+        }
+
+        if(!hasFactor) return -1;
+        return max; // FIXME complete this method
     }
 }
 

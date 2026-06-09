@@ -26,6 +26,22 @@ public class FindLargest {
      * greater than end, or end if there is no such value outside the range.
      */
     public static int findLargest(int[] in, int start, int end) {
-        return 0; // FIXME complete this method
+        if(start > end) return start;
+        int min = 0;
+        for(int i : in){
+            if(min > i) min = i;
+        }
+        int max = min;
+        for(int i : in){
+            if(i < start || i > end) {
+                if (i > max) {
+                    max = i;
+                }
+            }
+        }
+
+        return max == min ? end : max;
+
+       // FIXME complete this method
     }
 }

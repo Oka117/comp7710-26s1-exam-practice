@@ -1,5 +1,9 @@
 package warmup.Q4;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * A utility class designed to find the mathematical union of two sets.
  */
@@ -19,9 +23,25 @@ public class FindUnion {
      */
     public static int[] find(int[] setA, int[] setB) {
         // TODO: Implement the union logic based on the documentation above.
+        Set<Integer> set = new HashSet<>();
+        for(int ia: setA){
+            set.add(ia);
+        }
+        for(int ib: setB){
+            set.add(ib);
+        }
+        int len = set.size();
+        int count = 0;
+        int[] result = new int[len];
+        while(count < len){
+            for(int i : set){
+                result[count] = i;
+                count++;
+            }
+        }
 
-
-        return new int[0]; // Replace this line
+        return result;
+        // Replace this line
     }
 }
 

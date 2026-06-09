@@ -1,5 +1,8 @@
 package warmup.Q4;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * A utility class designed to find the mathematical intersection of two sets.
  */
@@ -19,8 +22,24 @@ public class FindIntersect {
     public static int[] find(int[] setA, int[] setB) {
         // TODO: Implement the intersection logic based on the documentation above.
 
+        Set<Integer> set = new HashSet<>();
+        for(int ia: setA){
+            for(int ib: setB){
+                if(ia == ib) set.add(ib);
+            }
+        }
 
-        return new int[0]; // Replace this line
+        int len = set.size();
+        int count = 0;
+        int[] result = new int[len];
+        while(count < len){
+            for(int i : set){
+                result[count] = i;
+                count++;
+            }
+        }
+
+        return result; // Replace this line
     }
 }
 

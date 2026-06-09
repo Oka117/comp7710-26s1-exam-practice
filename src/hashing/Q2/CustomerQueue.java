@@ -17,7 +17,14 @@ class Customer {
     public int hashCode() {
         // TODO: Generate and return a hash code using both firstName and lastName.
         // Requirement: You must explicitly use the prime number 31 in your calculation.
-        return 0;
+        int hash = 0;
+        for(int i = 0; i < firstName.length(); i++){
+            hash = 31 * hash + firstName.charAt(i);
+        }
+        for(int i = 0; i < lastName.length(); i++){
+            hash = 31 * hash + lastName.charAt(i);
+        }
+        return hash;
     }
 }
 
@@ -41,6 +48,9 @@ class CustomerQueue {
             // Requirement 1: Process the customers from leftmost to rightmost.
             // Requirement 2: You must use the prime number 31 as the multiplier.
             // Requirement 3: A null customer should contribute 0 to the hash code.
+            if(c != null){
+                result = 31 * (result + c.hashCode());
+            }
 
         }
         return result;

@@ -44,7 +44,16 @@ public class BoardGame {
      */
     @Override
     public int hashCode() {
-        return new Random().nextInt(2); // FIXME complete this method
+        int hash = 0;
+        for(int i = 0; i < name.length(); i++){
+            hash = 31 * hash + name.charAt(i);
+        }
+        hash += year * 31;
+        for(int i = 0; i < genre.toString().length(); i++){
+            hash = 31 * hash + genre.toString().charAt(i);
+        }
+
+        return hash; // FIXME complete this method
     }
 
     /**
@@ -53,6 +62,12 @@ public class BoardGame {
      */
     @Override
     public boolean equals(Object object) {
+        if(object == this) return true;
+        if(object == null) return false;
+        if(object instanceof BoardGame bg){
+            return bg.genre.equals(genre) && bg.name.equals(name) && bg.year == year;
+        }
+
         return false; // FIXME complete this method
     }
 
