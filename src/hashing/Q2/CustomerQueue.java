@@ -48,10 +48,7 @@ class CustomerQueue {
             // Requirement 1: Process the customers from leftmost to rightmost.
             // Requirement 2: You must use the prime number 31 as the multiplier.
             // Requirement 3: A null customer should contribute 0 to the hash code.
-            if(c != null){
-                result = 31 * (result + c.hashCode());
-            }
-
+            result = 31 * result + (c == null ? 0 : c.hashCode());
         }
         return result;
     }

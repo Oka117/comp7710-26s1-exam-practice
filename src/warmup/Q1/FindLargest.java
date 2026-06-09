@@ -27,20 +27,37 @@ public class FindLargest {
      */
     public static int findLargest(int[] in, int start, int end) {
         if(start > end) return start;
-        int min = 0;
-        for(int i : in){
-            if(min > i) min = i;
-        }
-        int max = min;
-        for(int i : in){
-            if(i < start || i > end) {
-                if (i > max) {
-                    max = i;
+        boolean foundOutside = false;
+        int largest = Integer.MIN_VALUE;
+
+        for (int value : in) {
+            if (value < start || value > end) {
+                if (!foundOutside || value > largest) {
+                    largest = value;
+                    foundOutside = true;
                 }
             }
         }
 
-        return max == min ? end : max;
+        if (!foundOutside) {
+            return end;
+        }
+
+        return largest;
+//        int min = 0;
+//        for(int i : in){
+//            if(min > i) min = i;
+//        }
+//        int max = min;
+//        for(int i : in){
+//            if(i < start || i > end) {
+//                if (i > max) {
+//                    max = i;
+//                }
+//            }
+//        }
+//
+//        return max == min ? end : max;
 
        // FIXME complete this method
     }

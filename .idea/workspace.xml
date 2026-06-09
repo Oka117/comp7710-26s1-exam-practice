@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be3a6e0a-0094-4465-8b68-6df95df7b304" name="Changes" comment="Add Junit5">
-      <change afterPath="$PROJECT_DIR$/src/classInheritance/Q1/Divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classInheritance/Q1/Float.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classInheritance/Q1/Int.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classInheritance/Q1/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classInheritance/Q1/Subtract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classInheritance/Q1/Sum.java" afterDir="false" />
+    <list default="true" id="be3a6e0a-0094-4465-8b68-6df95df7b304" name="Changes" comment="Complete All">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classInheritance/Q2/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classInheritance/Q2/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classInheritance/Q2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classInheritance/Q2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classInheritance/Q2/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classInheritance/Q2/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashing/Q1/BoardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashing/Q1/BoardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hashing/Q2/CustomerQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashing/Q2/CustomerQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/warmup/Q1/FindLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmup/Q1/FindLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/warmup/Q2/HighProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmup/Q2/HighProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/warmup/Q3/EqualCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmup/Q3/EqualCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/warmup/Q4/FindIntersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmup/Q4/FindIntersect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/warmup/Q4/FindUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/warmup/Q4/FindUnion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Oka117"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Oka117/comp7710-26s1-exam-practice.git",
+    "accountId": "b6197eac-8f09-44ac-b68f-b1e182a36621"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -56,6 +55,7 @@
     "JUnit.BoardGameTest.executor": "Run",
     "JUnit.CompanyTest.executor": "Run",
     "JUnit.CustomerQueueTest.executor": "Run",
+    "JUnit.CustomerQueueTest.testSameUsersDifferentOrderHash.executor": "Run",
     "JUnit.CustomerTest.executor": "Run",
     "JUnit.EmployeeTest.executor": "Run",
     "JUnit.EqualCountTest.executor": "Run",
@@ -93,36 +93,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.CustomerQueueTest">
-    <configuration name="BoardGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice-exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashing.Q1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hashing.Q1" />
-      <option name="MAIN_CLASS_NAME" value="hashing.Q1.BoardGameTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompanyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice-exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classInheritance.Q2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="classInheritance.Q2" />
-      <option name="MAIN_CLASS_NAME" value="classInheritance.Q2.CompanyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CustomerQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice-exam" />
       <extension name="coverage">
@@ -134,6 +104,22 @@
       <option name="PACKAGE_NAME" value="hashing.Q2" />
       <option name="MAIN_CLASS_NAME" value="hashing.Q2.CustomerQueueTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerQueueTest.testSameUsersDifferentOrderHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice-exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashing.Q2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hashing.Q2" />
+      <option name="MAIN_CLASS_NAME" value="hashing.Q2.CustomerQueueTest" />
+      <option name="METHOD_NAME" value="testSameUsersDifferentOrderHash" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,16 +139,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EqualCountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice-exam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classInheritance.Q2.*" />
+          <option name="PATTERN" value="warmup.Q3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classInheritance.Q2" />
-      <option name="MAIN_CLASS_NAME" value="classInheritance.Q2.ManagerTest" />
+      <option name="PACKAGE_NAME" value="warmup.Q3" />
+      <option name="MAIN_CLASS_NAME" value="warmup.Q3.EqualCountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindLargestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice-exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="warmup.Q1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="warmup.Q1" />
+      <option name="MAIN_CLASS_NAME" value="warmup.Q1.FindLargestTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,19 +258,19 @@
       <item itemvalue="JUnit.warmup.Q2" />
       <item itemvalue="JUnit.warmup.Q3" />
       <item itemvalue="JUnit.warmup.Q4" />
-      <item itemvalue="JUnit.BoardGameTest" />
-      <item itemvalue="JUnit.CompanyTest" />
       <item itemvalue="JUnit.CustomerQueueTest" />
+      <item itemvalue="JUnit.CustomerQueueTest.testSameUsersDifferentOrderHash" />
       <item itemvalue="JUnit.CustomerTest" />
-      <item itemvalue="JUnit.ManagerTest" />
+      <item itemvalue="JUnit.EqualCountTest" />
+      <item itemvalue="JUnit.FindLargestTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CustomerQueueTest" />
+        <item itemvalue="JUnit.CustomerQueueTest.testSameUsersDifferentOrderHash" />
+        <item itemvalue="JUnit.FindLargestTest" />
+        <item itemvalue="JUnit.EqualCountTest" />
         <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="JUnit.BoardGameTest" />
-        <item itemvalue="JUnit.CompanyTest" />
-        <item itemvalue="JUnit.ManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -296,12 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1780969346427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Complete All">
+      <option name="closed" value="true" />
+      <created>1780984505235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780984505235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Junit5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Junit5" />
+    <MESSAGE value="Complete All" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete All" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

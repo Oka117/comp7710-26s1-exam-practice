@@ -28,26 +28,45 @@ class Company {
     // - Then find the employee in 'allEmployees' who is not managed.
     // - You may need to use 'instanceof' to identify Manager objects.
     public Employee getCEO() {
-        List<Manager> managers = new ArrayList<>();
-        for(Employee e : this.allEmployees){
-            if (e instanceof Manager m){
-                managers.add(m);
-            }
+        if (allEmployees == null || allEmployees.isEmpty()) {
+            return null;
         }
-        int ceoIndex = 0;
-        if(this.allEmployees == null) return null;
-        if(this.allEmployees.size() == 1) return allEmployees.getFirst();
-        if(this.allEmployees.isEmpty()) return null;
 
-        for(int i = 0; i < allEmployees.size(); i++){
-            for(Manager m : managers){
-                if(!m.getEmployeeList().contains(allEmployees.get(i))){
-                    ceoIndex = i;
-                } else{
-                    ceoIndex = 0;
-                }
+        List<Employee> managedEmployees = new ArrayList<>();
+
+        for (Employee employee : allEmployees) {
+            if (employee instanceof Manager manager) {
+                managedEmployees.addAll(manager.getEmployeeList());
             }
         }
-        return this.allEmployees.get(ceoIndex); // Replace this line with your return statement
+
+        for (Employee employee : allEmployees) {
+            if (!managedEmployees.contains(employee)) {
+                return employee;
+            }
+        }
+
+        return null;
+//        List<Manager> managers = new ArrayList<>();
+//        for(Employee e : this.allEmployees){
+//            if (e instanceof Manager m){
+//                managers.add(m);
+//            }
+//        }
+//        int ceoIndex = 0;
+//        if(this.allEmployees == null) return null;
+//        if(this.allEmployees.size() == 1) return allEmployees.getFirst();
+//        if(this.allEmployees.isEmpty()) return null;
+//
+//        for(int i = 0; i < allEmployees.size(); i++){
+//            for(Manager m : managers){
+//                if(!m.getEmployeeList().contains(allEmployees.get(i))){
+//                    ceoIndex = i;
+//                } else{
+//                    ceoIndex = 0;
+//                }
+//            }
+//        }
+//        return this.allEmployees.get(ceoIndex); // Replace this line with your return statement
     }
 }

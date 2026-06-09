@@ -25,8 +25,9 @@ public class EqualCount {
      */
     public static int equalCount(String[] a, String[] b) {
         // Note: this is not a correct implementation of the method.
-        if(a.length != b.length) return -1;
         if(a == null || b == null) throw new NullPointerException();
+        if(a.length != b.length) return -1;
+
         for(String s : a){
             if(s == null) throw new NullPointerException();
         }
@@ -34,11 +35,13 @@ public class EqualCount {
             if(s == null) throw new NullPointerException();
         }
         int count = 0;
-        for(String sa : a){
-            for(String sb : b){
-                if(sa.equals(sb)){
-                    count++;
-                }
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] == null || b[i] == null) {
+                throw new NullPointerException();
+            }
+
+            if (a[i].equals(b[i])) {
+                count++;
             }
         }
         return count;
